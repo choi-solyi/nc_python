@@ -81,12 +81,14 @@ to_pay = tex_calc(15000000)
 pay_tex(to_pay)
 
 
-# 2.10 Return recap
+# 2.11 Return Recap
 my_name = "solyi"
 my_age = 33
 my_color_eyes = "black"
 
+# f는 format을 의미한다.
 print(f"Hello I'm {my_name}, I have {my_age} year in the earth, {my_color_eyes} is my eye color")
+
 
 def make_juice(fruit):
   return f"{fruit} + 🧃"
