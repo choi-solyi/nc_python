@@ -1,6 +1,8 @@
 from requests import get
 from bs4 import BeautifulSoup
 
+
+
 def extract_wwr_jobs(keyword):
   base_url ="https://weworkremotely.com/remote-jobs/search?term="
   reseponse = get(f"{base_url}{keyword}")
